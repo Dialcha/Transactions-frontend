@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Transactions-frontend/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Transactions-frontend/static/js/main.9fb64b8a.chunk.js",
+    "main.js.map": "/Transactions-frontend/static/js/main.9fb64b8a.chunk.js.map",
+    "runtime-main.js": "/Transactions-frontend/static/js/runtime-main.5844dc64.js",
+    "runtime-main.js.map": "/Transactions-frontend/static/js/runtime-main.5844dc64.js.map",
+    "static/css/2.0c0672e5.chunk.css": "/Transactions-frontend/static/css/2.0c0672e5.chunk.css",
+    "static/js/2.73ba64e1.chunk.js": "/Transactions-frontend/static/js/2.73ba64e1.chunk.js",
+    "static/js/2.73ba64e1.chunk.js.map": "/Transactions-frontend/static/js/2.73ba64e1.chunk.js.map",
+    "index.html": "/Transactions-frontend/index.html",
+    "precache-manifest.d7d3d888516e82f4bc4de5f7813dd0fe.js": "/Transactions-frontend/precache-manifest.d7d3d888516e82f4bc4de5f7813dd0fe.js",
+    "service-worker.js": "/Transactions-frontend/service-worker.js",
+    "static/css/2.0c0672e5.chunk.css.map": "/Transactions-frontend/static/css/2.0c0672e5.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/Transactions-frontend/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.73ba64e1.chunk.js.LICENSE.txt": "/Transactions-frontend/static/js/2.73ba64e1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5844dc64.js",
+    "static/css/2.0c0672e5.chunk.css",
+    "static/js/2.73ba64e1.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.9fb64b8a.chunk.js"
+  ]
+}

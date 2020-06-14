@@ -14,19 +14,54 @@ function Find() {
     fetchData();
   }, []);
 
-    const listElements = data.map(element => <h1>{element.destAccount}</h1>);
+  const listElements = data.map((element) => {
+    return (
+      <tr>
+        <td>{element.originAccount}</td>
+        <td>{element.nitOriginCompany}</td>
+        <td>{element.destAccount}</td>
+        <td>{element.nitDestCompany}</td>
+        <td>{element.value}</td>
+        <td>{element.date}</td>
+        <td>{element.anomaly}</td>
+      </tr>
+    );
+  });
 
   return (
-    listElements
+    <section className="section" style={{ marginTop: "1em" }}>
+      <div className="container has-text-centered">
+        <table className="table">
+          <thead>
+            <tr>
+              <th>
+                <abbr title="Origin account">Origin Account</abbr>
+              </th>
+              <th>
+                <abbr title="NIT origin company">NIT Origin</abbr>
+              </th>
+              <th>
+                <abbr title="Destination account">Dest. Account</abbr>
+              </th>
+              <th>
+                <abbr title="NIT destination company">NIT Dest</abbr>
+              </th>
+              <th>
+                <abbr title="Value">Value</abbr>
+              </th>
+              <th>
+                <abbr title="Date">Transaction date</abbr>
+              </th>
+              <th>
+                <abbr title="Anomaly">Anomaly</abbr>
+              </th>
+            </tr>
+          </thead>
+          <tbody>{listElements}</tbody>
+        </table>
+      </div>
+    </section>
   );
 }
 
 export default Find;
-
-//<ul>
-//     {data.transactions.map((transaction) => (
-//        <li key={transaction._id}>
-//         <h1>{transaction._id}</h1>
-//       <h3>{transaction.originAccount}</h3>
-//   </li // ))}
-//</ul>

@@ -11,6 +11,7 @@ function FormField({ text, iconText, helpText, name, placeholder, handleChange, 
         <div className="field">
           <div className="control has-icons-left">
             <input
+              required="true"
               className="input"
               type={type}
               placeholder={placeholder}
@@ -21,7 +22,7 @@ function FormField({ text, iconText, helpText, name, placeholder, handleChange, 
               <i className={"fas " + iconText}></i>
             </span>
           </div>
-          <p class="help">{helpText}</p>
+          <p className="help">{helpText}</p>
         </div>
       </div>
     </div>

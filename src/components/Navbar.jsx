@@ -30,7 +30,7 @@ function Navbar() {
         </a>
       </div>
 
-      <div id="navbarBasicExample" class="navbar-menu">
+      <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
           <a className="navbar-item">
             <Link to="/">Add transactions</Link>

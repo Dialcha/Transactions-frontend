@@ -3,7 +3,7 @@ import "./App.css";
 import "bulma/css/bulma.css";
 import dataForm from "./assets/dataform";
 import Find from "./components/Find";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Components
 import Navbar from "./components/Navbar";
@@ -16,7 +16,7 @@ function App() {
       <div className="App">
         <Navbar></Navbar>
         <Switch>
-          <Route path="/about">
+          <Route path="/list">
             <Find></Find>
           </Route>
           <Route path="/">

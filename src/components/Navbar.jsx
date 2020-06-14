@@ -3,13 +3,17 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav
+      className="navbar is-primary"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div className="navbar-brand">
-        <a className="navbar-item" href="https://bulma.io">
+        <a className="navbar-item" href="">
           <img
-            src="https://bulma.io/images/bulma-logo.png"
-            width="112"
-            height="28"
+            src="https://image.freepik.com/free-vector/robbot-logo-vector_83738-104.jpg"
+            width="30"
+            height="30"
           />
         </a>
 
@@ -33,7 +37,7 @@ function Navbar() {
           </a>
 
           <a className="navbar-item">
-            <Link to="/about">Search transactions</Link>
+            <Link to="/list">List transactions</Link>
           </a>
         </div>
       </div>

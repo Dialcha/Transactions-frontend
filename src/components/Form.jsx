@@ -62,6 +62,7 @@ function Form({ dataForm }) {
 
   return (
     <section className="section" style={{ marginTop: "1em" }}>
+      <h1 class="title is-1">Add transaction</h1>
       <div className="container">
         <form onSubmit={handleSubmit}>
           <div className="container">

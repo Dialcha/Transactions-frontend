@@ -48,7 +48,7 @@ function Form({ dataForm }) {
     };
 
     axios
-      .post("http://localhost:8080/api/transactions/", values, options)
+      .post("http://localhost:8080/v1/transactions/", values, options)
       .then((res) => {
         if(res.status === 200) {
           swal("Ok", "Transaction inserted correctly", "success")

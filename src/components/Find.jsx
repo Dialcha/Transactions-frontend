@@ -6,7 +6,7 @@ function Find() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await axios("http://localhost:8080/api/transactions/");
+      const result = await axios("http://localhost:8080/v1/transactions/");
       setData(result.data);
       console.log(result.data);
     };
@@ -21,6 +21,7 @@ function Find() {
         <td>{element.nitOriginCompany}</td>
         <td>{element.destAccount}</td>
         <td>{element.nitDestCompany}</td>
+        <td>{element.paymentMethod}</td>
         <td>{element.value}</td>
         <td>{element.date}</td>
         <td>{element.anomaly}</td>
@@ -45,6 +46,9 @@ function Find() {
               </th>
               <th>
                 <abbr title="NIT destination company">NIT Dest</abbr>
+              </th>
+              <th>
+                <abbr title="Payment method">Payment method</abbr>
               </th>
               <th>
                 <abbr title="Value">Value</abbr>
